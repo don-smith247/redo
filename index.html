@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav>
+        <div class="first-div">
+            <div class="menu" onclick="dropdown()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <img class="logo" src="./logo.svg" alt="">
+            <ul class="first-ul">
+                <li>collections</li>
+                <li>men</li>
+                <li>women</li>
+                <li>about</li>
+                <li>contact</li>
+            </ul>
+        </div>
+        <div class="second-div">
+            <div id="cart">
+                <span id="cart-count">0</span>
+                <img src="./icon-cart.svg" alt="Selected Product" id="selected-product">
+                <div id="selected-product-info">
+                  <h3>Selected Products</h3>
+                  <ul id="selected-products-list"></ul>
+                </div>
+              </div>
+            <img src="./image-avatar.png" alt="">
+        </div>
+    </nav>
+    <ul class="second-ul">
+        <li>collections</li>
+        <li>men</li>
+        <li>women</li>
+        <li>about</li>
+        <li>contact</li>
+    </ul>
+    <div class="third-div">
+        <div class="two-shoe">
+                <div class="product" id="gggc" data-id="1">
+                    <img src="./image-product-1.jpg" id="hghg" alt="Product 1">
+                    <p>Product 1</p>
+                    <button id="bbb" class="add-to-cart">Add to Cart</button>
+                </div>
+            <div class="multi-img">
+                 <div class="ka">
+                    <div class="product" data-id="2">
+                        <img src="./image-product-1-thumbnail.jpg" alt="Product 2">
+                        <p>Product 2</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                      </div>
+                      <div class="product" data-id="3">
+                        <img src="./image-product-2-thumbnail.jpg" alt="Product 3">
+                        <p>Product 3</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                      </div>
+                 </div>
+                  <div class="kaka">
+                    <div class="product" data-id="4">
+                        <img src="./image-product-3-thumbnail.jpg" alt="Product 4">
+                        <p>Product 4</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                      </div>
+                      <div class="product" data-id="5">
+                        <img src="./image-product-4-thumbnail.jpg" alt="Product 5">
+                        <p>Product 5</p>
+                        <button class="add-to-cart">Add to Cart</button>
+                      </div>
+                  </div>
+            </div>
+        </div>
+        <div class="all-shoe">
+            <div class="first-txt">
+                <h5>SNEAKER COMPANY</h5>
+                <h1>Fall limited edition <br> sneakers</h1>
+            </div>
+            <div class="first-p">
+                <p>the low-profit sneakers are your perfect causual wear companion. features a durable rubber outer sole. they'll withstand everything the weather can offer</p>
+            </div>
+            <div class="second-txt">
+                <div class="under-s">
+                    <div><h2>$125.00</h2></div>
+                    <div class="uu"><h3>50%</h3></div>
+                </div>
+                <div>
+                    <del>$250.00</del>
+                </div>
+            </div>
+            <div>
+                <div class="cart-popup">
+                    <div class="cart-items">
+                        <div class="cart-item">
+                            <div class="quantity">
+                                <button class="decrement-button">-</button>
+                                <span class="item-quantity">0</span>
+                                <button class="increment-button">+</button>
+                            </div>
+                            <span class="item-price">$125.00 each</span>
+                        </div>
+                        <div class="cart-total">
+                            Total: $0.00
+                        </div>
+                    </div>
+                    <div>
+                        <button class="checkout-button">
+                            <img src="./images/icon-cart.svg" alt="">
+                            Checkout
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
